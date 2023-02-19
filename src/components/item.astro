@@ -1,8 +1,9 @@
 ---
+import Ul from "./lists.astro"
 const blog = [{title : "my life"},{title : "my life2"},{title : "my life3"}]
 const {posts} = Astro.props
 ---
 
-  <h1>Blog</h1>
 
+  <h1>Blog</h1>
   {posts.map((b)=> <li><h3>{b.title}</h3></li> )}
