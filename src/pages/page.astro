@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import '../styles/global.css';
+
 ---
 
 <Layout title="page">
@@ -9,3 +10,7 @@ import '../styles/global.css';
     page
   </main>
 </Layout>
+
+<script is:inline src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/+esm"></script>
+<script src="../scripts/page.js" />
+<script src="../scripts/page.ts" />
