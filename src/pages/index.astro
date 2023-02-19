@@ -9,8 +9,10 @@ const posts = [{ title: "my life" }, {title: "my life2"}, {title: "my life 3"}]
 	<main>
 		<h1>Welcome to <span class="text-gradient">もりけん塾</span></h1>
     <Lists>
+		<p slot="fallbackaa">aaa</p>
+		  <Item posts={posts} slot="item"/>
 			<img src="https://terracetech.jp/wp-content/uploads/2023/02/astro.png" slot="img"/>
-      <Item posts={posts} slot="item"/>
+  
 		</Lists>
 	</main>
 </Layout>
